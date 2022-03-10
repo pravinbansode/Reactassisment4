@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main_container{
+    background-image: linear-gradient(rgb(32, 167, 50),rgb(192, 230, 255),lightblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#home{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 50px 0 0 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    background-color: #21325E;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.header1{
+    text-decoration: none;
+    color: white;
+}
+
+.header1:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+.btn1{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 90px;
+    right: 100px;
+    border-radius: 20px;
+    background-color: #B8FFF9;
+}
+
+.box{
+    margin: 50px 100px 20px 100px;
+    width: 30vw;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: #B8FFF9;
+    padding: 10px;
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    margin: 50px 100px 0px 100px;
+    background-color: thistle;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #21325E;
+    border: 1px solid black;
+}
